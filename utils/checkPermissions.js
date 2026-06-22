@@ -1,4 +1,4 @@
-const config = require('../config.json');
+const config = require('../config.js');
 
 /**
  * Проверяет, является ли пользователь администратором
