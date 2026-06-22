@@ -4,7 +4,7 @@ module.exports = {
   guildId: process.env.GUILD_ID,
   logChannelId: process.env.LOG_CHANNEL_ID,
   adminRoleId: process.env.ADMIN_ROLE_ID,
-  applicationCooldownHours: parseInt(process.env.APPLICATION_COOLDOWN_HOURS || '24', 10),
+  applicationCooldownHours: parseInt(process.env.APPLICATION_COOLDOWN_HOURS) || 24,
   activityType: process.env.ACTIVITY_TYPE || 'WATCHING',
-  activityText: process.env.ACTIVITY_TEXT || 'за World Wide',
+  activityText: process.env.ACTIVITY_TEXT || 'за World Wide'
 };
